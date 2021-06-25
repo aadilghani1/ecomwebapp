@@ -7,6 +7,7 @@ import Images from "./components/Images";
 import Header from "./components/Header";
 import HeaderMain from "./components/HeaderMain";
 import HeaderBanner from "./components/HeaderBanner";
+import Products from "./components/Products";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <HeroSection />
       <Features />
+      <Products />
       <Images />
       <Advertisement />
       <FooterHero />
