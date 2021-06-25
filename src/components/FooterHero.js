@@ -12,10 +12,10 @@ const FooterHero = () => {
           <form className="flex items-center text-sm">
             <input
               type="email"
-              className="py-1 w-64 px-3 border-none focus:outline-none placeholder-opacity-5"
+              className="py-2 w-64 px-3 border-none focus:outline-none placeholder-opacity-5 rounded-md shadow-lg"
               placeholder="Email Address"
             />
-            <button className="outline-none border-none px-4 py-1 text-sm bg-black text-white">
+            <button className="outline-none border-none px-4 py-2 text-sm bg-black text-white rounded-r-md shadow-md">
               Subscribe
             </button>
           </form>

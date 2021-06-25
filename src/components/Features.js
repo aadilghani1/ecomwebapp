@@ -4,7 +4,7 @@ import { AiOutlineCreditCard } from "react-icons/ai";
 const Features = () => {
   return (
     <div className="hidden sm:block bg-gray-100 mx-10 ">
-      <div className="grid grid-cols-2 md:grid-cols-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 text-2xl py-3">
         <Feature
           Icon={BiRocket}
           text="FREE DELIVERY"
